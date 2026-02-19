@@ -6,21 +6,21 @@
     <div class="container">
       <div class="home">
         <h3>HOME</h3>
-        <div class="home-score">0</div>
+        <div id="homeScore" class="home-score">0</div>
         <div class="home-points">
-          <div>+1</div>
-          <div>+2</div>
-          <div>+3</div>
+          <button onclick="homePlusOne()">+1</button>
+          <button onclick="homePlusTwo()">+2</button>
+          <button onclick="homePlusThree()">+3</button>
         </div>
       </div>
 
       <div class="guest">
         <h3>GUEST</h3>
-        <div class="guest-score">0</div>
+        <div id="guestScore" class="guest-score">0</div>
         <div class="guest-points">
-          <div>+1</div>
-          <div>+2</div>
-          <div>+3</div>
+          <button onclick="guestPlusOne()">+1</button>
+          <button onclick="guestPlusTwo()">+2</button>
+          <button onclick="guestPlusThree()">+3</button>
         </div>
       </div>
     </div>

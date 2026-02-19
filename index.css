@@ -74,12 +74,15 @@ body {
 	width: 100%;
 }
 
-.home-points > div:nth-child(-n + 3) {
+.home-points > button:nth-child(-n + 3) {
 	font-family: cursedTimer;
+	background-color: #1B244A;
 	border: 3px solid #9AABD8;
+	color: #9AABD8;
 	border-radius: 0.5rem;
-	padding: 1rem;
+	padding: 1.5rem;
 	text-align: center;
+	font-size: 2rem;
 }
 
 .guest-points {
@@ -89,12 +92,15 @@ body {
 	width: 100%;
 }
 
-.guest-points > div:nth-child(-n + 3) {
+.guest-points > button:nth-child(-n + 3) {
 	font-family: cursedTimer;
+	background-color: #1B244A;
 	border: 3px solid #9AABD8;
+	color: #9AABD8;
 	border-radius: 0.5rem;
-	padding: 1rem;
+	padding: 1.5rem;
 	text-align: center;
+	font-size: 2rem;
 }
 
 
