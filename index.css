@@ -14,50 +14,87 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 	font-size: 2rem;
 	width: 100%;
 }
 
 .home {
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .guest {
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .home h3 {
-	width: 100%;
 	text-align: center;
 	font-family: Arial;
+	font-size: 5rem;
+	margin-bottom: 2rem;
 }
 
 .guest h3 {
 	text-align: center;
 	font-family: Arial;
+	font-size: 5rem;
+	margin-bottom: 2rem;
 }
 
 .home-score {
-	width: 80%;
+	width: 60%;
 	text-align: center;
 	font-family: cursedTimer;
 	color: #F94F6D;
-	font-size: 3rem;
+	font-size: 8rem;
 	padding: 5rem;
 	background-color: #080001;
-	border-radius: 0.5rem;
+	border-radius: 1rem;
 }
 
 .guest-score {
-	width: 80%;
+	width: 60%;
 	text-align: center;
 	font-family:cursedTimer;
 	color: #F94F6D;
-	font-size: 3rem;
+	font-size: 8rem;
 	padding: 5rem;
 	background-color: #080001;
+	border-radius: 1rem;
+}
+
+.home-points {
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem;
+	width: 100%;
+}
+
+.home-points > div:nth-child(-n + 3) {
+	font-family: cursedTimer;
+	border: 3px solid #9AABD8;
 	border-radius: 0.5rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+.guest-points {
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem;
+	width: 100%;
+}
+
+.guest-points > div:nth-child(-n + 3) {
+	font-family: cursedTimer;
+	border: 3px solid #9AABD8;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	text-align: center;
 }
 
 
